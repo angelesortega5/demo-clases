@@ -2,7 +2,40 @@ package com.maol.demo.clases.service;
 
 public class Barco {
 
-	private String color = "negroblanco";
-	private int pesoKg = 3000;
-	private double medidaAncho = 95.5;
+	private String color;
+	private int pesoKg;
+	private double medidaAncho;
+	
+	
+	public String getColor() {
+		return this.color;
+	}
+	
+	public void setColor(String parametroColor) {
+		this.color = parametroColor;
+		
+		
+	}
+	
+	public int getPesoKg() {
+		return this.pesoKg;
+		
+	}
+	
+	public void setPesoKg(int parametroPesoKg) {
+		this.pesoKg = parametroPesoKg;
+	
+	}
+	
+	public double getMedidaAncho() {
+		return this.medidaAncho;
+	}
+	
+	public void setMedidaAncho(double parametroMdidaAncho) {
+		this.medidaAncho = parametroMedidaAnchho;
+	}
+
+	
+	
+	
 }
