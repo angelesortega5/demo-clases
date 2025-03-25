@@ -18,7 +18,7 @@ public class Bicicleta {
 	
 	
 	public void setpesoLb(int parametroPesoLb) {
-		this.pesoLb;
+		this.pesoLb = parametroPesoLb;
 	}
 	
 	public int getPesoLb() {

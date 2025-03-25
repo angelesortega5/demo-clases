@@ -16,22 +16,21 @@ public class Gato {
 	}
 
 	public void setEdad(int parametroEdad) {
-        this.edad = parametroEdad;
-		
+		this.edad = parametroEdad;
+
 	}
 
 	public int getEdad() {
 		return this.edad;
-		
+
 	}
-	
+
 	public double getNumeroPatas() {
 		return this.numeroPatas;
 	}
-	
+
 	public void setNumeroPatas(double parametroNumeroPatas) {
 		this.numeroPatas = parametroNumeroPatas;
 	}
-	
-	
+
 }

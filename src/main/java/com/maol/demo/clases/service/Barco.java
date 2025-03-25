@@ -32,7 +32,7 @@ public class Barco {
 	}
 	
 	public void setMedidaAncho(double parametroMdidaAncho) {
-		this.medidaAncho = parametroMedidaAnchho;
+		this.medidaAncho = parametroMedidaAncho;
 	}
 
 	

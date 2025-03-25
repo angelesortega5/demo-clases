@@ -3,7 +3,7 @@ package com.maol.demo.clases.service;
 public class Perro {
 
 	private String nombre;
-	private int =;
+	private int;
 	private double altura;
 
 	public void setNombre(String parametroNombre) {
